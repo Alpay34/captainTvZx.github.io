@@ -1,0 +1,173 @@
+body, html {
+	background-image: -webkit-linear-gradient(135deg, #00A8C5, #FFFF7E);
+	background-image: linear-gradient(135deg, #00A8C5, #FFFF7E);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.container .navigation {
+	margin: 0 auto;
+	width: 650px;
+	height: 32px;
+}
+
+.container .navigation nav ul {
+	margin: 0;
+}
+
+.container .navigation nav ul li {
+	list-style: none;
+}
+
+.container .navigation nav ul li a {
+	float: left;
+	color: #fff;
+	padding-top: 8px;
+	padding-left: 14px;
+	padding-right: 14px;
+	height: 28px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .navigation nav ul li a:hover {
+	background: rgba(49, 49, 49, 0.2);
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 255);
+}
+
+.container .panel {
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 32px;
+	padding: 25px;
+	width: 1024px;
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 10px 0px #000;
+	transition: all 0.5s ease;
+}
+
+.container .panel:hover {
+	box-shadow: 0px 0px 25px 0px #000;
+}
+
+.container .panel .title {
+	background: #c0392b;
+	float: left;
+	margin-left: -50px;
+}
+
+.container .panel .title a {
+	background: #c0392b;
+	color: #fff;
+	margin-left: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .panel .title a:hover {
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 255);
+}
+
+.container .panel .post {
+	margin-top: 50px;
+	width: 100%;
+	min-height: 300px;
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 5px 0px #000;
+	transition: all 0.5s ease;
+}
+
+.container .panel .post:hover {
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.container .panel .post .img {
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.container .panel .post .posttitle {
+	float: right;
+	background: #8e44ad;
+	padding-right: 20px;
+	padding-left: 15px;
+	margin-right: -20px;
+	margin-top: 15px;
+}
+
+.container .panel .post .posttitle a {
+	background: #8e44ad;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .panel .post .posttitle a:hover {
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 255);
+}
+
+.container .panel .post p {
+	color: #4f4f4f;
+	line-height: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.container .copyright {
+	margin: 0 auto;
+	margin-top: 10px;
+	background: #313131;
+	width: 1052px;
+	height: 32px;
+}
+
+.container .copyright {
+	color: #666;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 25px;
+	padding-top: 16px;
+}
+
+.container .copyright a {
+	color: #666;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .copyright a:hover {
+	color: #ffb000;
+}
+
+.container .copyright img {
+	float: right;
+	margin-right: 6px;
+	margin-top: -6px;
+	opacity: 0.4;
+	transition: all 0.5s ease;
+}
+
+.container .copyright img:hover {
+	opacity: 1;
+}

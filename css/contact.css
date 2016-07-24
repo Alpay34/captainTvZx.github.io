@@ -1,0 +1,326 @@
+body, html {
+	background-image: -webkit-linear-gradient(135deg, #00A8C5, #FFFF7E);
+	background-image: linear-gradient(135deg, #00A8C5, #FFFF7E);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.container .navigation {
+	margin: 0 auto;
+	width: 650px;
+	height: 32px;
+}
+
+.container .navigation nav ul {
+	margin: 0;
+}
+
+.container .navigation nav ul li {
+	list-style: none;
+}
+
+.container .navigation nav ul li a {
+	float: left;
+	color: #fff;
+	padding-top: 8px;
+	padding-left: 14px;
+	padding-right: 14px;
+	height: 28px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .navigation nav ul li a:hover {
+	background: rgba(49, 49, 49, 0.2);
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 255);
+}
+
+
+.container .panel {
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 32px;
+	padding: 25px;
+	width: 1280px;
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 10px 0px #000;
+	transition: all 0.5s ease;
+}
+
+.container .panel:hover {
+	box-shadow: 0px 0px 25px 0px #000;
+}
+
+.container .panel iframe {
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+
+.container .panel .contact .mail .title {
+	background: #3498db;
+	float: left;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.container .panel .contact .mail .title a {
+	background: #3498db;
+	color: #fff;
+	margin-left: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .panel .contact .mail .title a:hover {
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 255);
+}
+
+
+.container .panel .contact {
+	margin-top: 25px;
+	width: 100%;
+	height: 512px;
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.container .panel .contact .mail {
+	float: left;
+	background: #fff;
+	width: 638px;
+	
+}
+
+.container .panel .contact .phone {
+	float: left;
+	background: #fff;
+	width: 638px;
+	height: 50%;
+}
+
+.container .panel .contact .phone h1 {
+	margin-top: 72px;
+	font-size: 52px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container .panel .contact .phone h3 {
+	color: #3498db;
+	text-align: center;
+	font-size: 32px;
+	line-height: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container .panel .contact .skype {
+	float: left;
+	background-image: #fff;
+	width: 638px;
+	height: 50%;
+}
+
+.container .panel .contact .skype a {
+	color: #12a5f4;
+	margin-top: 92px;
+	font-size: 64px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container .panel .contact .skype h1 {
+	color: #12a5f4;
+	margin-top: 92px;
+	font-size: 64px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.3s ease;
+}
+
+.container .panel .contact .skype h1:hover {
+	cursor: pointer;
+	font-size: 92px;
+}
+
+.container .panel .contact .par {
+	float: left;
+	background: #313131;
+	width: 1px;
+	height: 100%;
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.container .panel .contact .mail h3 {
+	margin-top: 72px;
+	color: #3498db;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container .panel .contact .mail h5 {
+	color: #666;
+	text-align: center;
+	line-height: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.container .panel .contact .mail form .edit {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	width: 80%;
+	height: 32px;
+	text-align: left;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.3s ease;
+}
+
+.container .panel .contact .mail form .textarea {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	width: 80%;
+	height: 92px;
+	text-align: left;
+	resize: none;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.3s ease;
+}
+
+.container .panel .contact .mail form .button {
+	display: block;
+	background: rgba(52, 152, 219, 1);
+	color: #fff;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	width: 81%;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 10px 0px #000;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.3s ease;
+}
+
+.container .panel .contact .mail form .button:hover {
+	background: rgba(52, 132, 255, 1);
+	cursor: pointer;
+}
+
+
+.container .panel .contact .phone .title {
+	float: right;
+	background: #1abc9c;
+	padding-right: 20px;
+	padding-left: 15px;
+	margin-right: -20px;
+	margin-top: 15px;
+}
+
+.container .panel .contact .phone .title a {
+	background: #1abc9c;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .panel .contact .phone .title a:hover {
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 255);
+}
+
+
+.container .panel .contact .skype .title {
+	float: right;
+	background: #12a5f4;
+	padding-right: 20px;
+	padding-left: 15px;
+	margin-right: -20px;
+	margin-top: 15px;
+}
+
+.container .panel .contact .skype .title a {
+	background: #12a5f4;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .panel .contact .skype .title a:hover {
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, 255);
+}
+
+.container .panel .contact .skype hr {
+	float: left;
+	background: #313131;
+	width: 100%;
+	height: 1px;
+	border: 1px solid #dedede;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.container .copyright {
+	margin: 0 auto;
+	margin-top: 10px;
+	background: #313131;
+	width: 1306px;
+	height: 32px;
+}
+
+.container .copyright {
+	color: #666;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 25px;
+	padding-top: 16px;
+}
+
+.container .copyright a {
+	color: #666;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.5s ease;
+}
+
+.container .copyright a:hover {
+	color: #ffb000;
+}
+
+.container .copyright img {
+	float: right;
+	margin-right: 6px;
+	margin-top: -6px;
+	opacity: 0.4;
+	transition: all 0.5s ease;
+}
+
+.container .copyright img:hover {
+	opacity: 1;
+}
